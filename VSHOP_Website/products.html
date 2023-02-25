@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/title.jpg" type="image/png" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  
+
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./styles.css" />
+  <title>VSHOP - Website</title>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  
+  <nav class="nav">
+    <div class="wrapper container">
+      <div class="logo"><a href="">
+        <img src="./images/titilehead.jpg" alt="" style="width: 70px;">
+      </a>
+      </div>
+      <ul class="nav-list">
+        <div class="top">
+          <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
+        </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li>
+          <a href="" class="desktop-item">Shop <span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showMega" />
+          <label for="showMega" class="mobile-item">Shop <span><i class="fas fa-chevron-down"></i></span></label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="./images/cans.png" alt="" />
+              </div>
+              <div class="row">
+                <header>Shop </header>
+                <ul class="mega-links">
+                  <li><a href="#">Shop With Aquafina</a></li>
+                  <li><a href="#">Shop With Bisleri</a></li>
+                  <li><a href="#">Shop Mini Evian</a></li>
+                  <li><a href="#">Shop Only Dasani</a></li>
+                  <li><a href="#">Shop Only Nestal</a></li>
+                  <li><a href="#">Shop Only Perrier</a></li>
+                  
+                </ul>
+              </div>
+              <div class="row">
+                <header>Filter</header>
+                <ul class="mega-links">
+                  <li><a href="#">Water Bottle</a></li>
+                  <li><a href="#">Filter Aquafina</a></li>
+                  <li><a href="#">Filter Evian</a></li>
+                  <li><a href="#">Filter Dasani</a></li>
+                  <li><a href="#">Filter Perrier</a></li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+        </li>
+       
+        <li>
+          <a href="" class="desktop-item">Page <span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showdrop2" />
+          <label for="showdrop2" class="mobile-item">Page <span><i class="fas fa-chevron-down"></i></span></label>
+          <ul class="drop-menu2">
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            
+           
+          </ul>
+        </li>
+        <!-- icons -->
+        <li class="icons">
+          <a href="cart.html">
+            <span>
+            <img src="./images/shoppingBag.svg" alt="" />
+            <small class="count d-flex">0</small>
+          </span>
+          </a>
+          <span><img src="./images/search.svg" alt="" /></span>
+        </li>
+      </ul>
+      <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+
+  <!-- PRODUCTS -->
+
+  <section class="section products">
+    <div class="products-layout container">
+      <div class="col-1-of-4">
+        <div>
+          <div class="block-title">
+            <h3>Category</h3>
+          </div>
+
+          <ul class="block-content">
+            <li>
+              
+              <label>
+                <span>&bull;Bisleri</span>
+                <small>(10)</small>
+              </label>
+            </li>
+
+            <li>
+              
+              <label>
+                <span>&bull;Aquafina</span>
+                <small>(100)</small>
+              </label>
+            </li>
+
+            <li>
+              
+              <label>
+                <span>&bull;Nestal</span>
+                <small>(100)</small>
+              </label>
+            </li>
+
+            <li>
+             
+              <label>
+                <span>&bull;beer park</span>
+                <small>(300)</small>
+              </label>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="block-title">
+            <h3>Brands</h3>
+          </div>
+
+          <ul class="block-content">
+            <li>
+              <input type="checkbox" name="" id="">
+              <label>
+                <span>Bisleri</span>
+               
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="" id="">
+              <label>
+                <span>Aquafina</span>
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="" id="">
+              <label>
+                <span>Nestal</span>
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="" id="">
+              <label>
+                <span>Figi</span>
+                </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="" id="">
+              <label>
+                <span>Evian</span>
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="" id="">
+              <label>
+                <span>Dasani</span>
+              </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="" id="">
+              <label>
+                <span>Smart Water</span>
+               </label>
+            </li>
+
+            <li>
+              <input type="checkbox" name="" id="">
+              <label>
+                <span>Bisleri</span>
+                </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-3-of-4">
+        <form action="">
+          <div class="item">
+            <label for="sort-by">Sort By</label>
+            <select name="sort-by" id="sort-by">
+              <option value="title" selected="selected">Name</option>
+              <option value="number">Price</option>
+            </select>
+          </div>
+          
+          <a href="">Apply</a>
+        </form>
+
+        <div class="product-layout">
+
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/pr1.webp" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+
+              <ul class="side-icons">
+                <span><i class="fas fa-search"></i></span>
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="fas fa-sliders-h"></i></span>
+              </ul>
+            </div>
+            <div class="bottom">
+              <a href="productDetails.html">Aquafina</a>
+              <div class="price">
+                <span>Rs.20</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/pr2.webp" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+
+              <ul class="side-icons">
+                <span><i class="fas fa-search"></i></span>
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="fas fa-sliders-h"></i></span>
+              </ul>
+            </div>
+            <div class="bottom">
+              <a href="">Bisleri</a>
+              <div class="price">
+                <span>Rs.25</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/pr3.jpg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+
+              <ul class="side-icons">
+                <span><i class="fas fa-search"></i></span>
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="fas fa-sliders-h"></i></span>
+              </ul>
+            </div>
+            <div class="bottom">
+              <a href="">Evian</a>
+              <div class="price">
+                <span>Rs.30</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/pr5.jpg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+
+              <ul class="side-icons">
+                <span><i class="fas fa-search"></i></span>
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="fas fa-sliders-h"></i></span>
+              </ul>
+            </div>
+            <div class="bottom">
+              <a href="">Nestal</a>
+              <div class="price">
+                <span>Rs.30</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/pr6.jpg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+
+              <ul class="side-icons">
+                <span><i class="fas fa-search"></i></span>
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="fas fa-sliders-h"></i></span>
+              </ul>
+            </div>
+            <div class="bottom">
+              <a href="">Perrier</a>
+              <div class="price">
+                <span>Rs.20</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/pr7.webp" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+
+              <ul class="side-icons">
+                <span><i class="fas fa-search"></i></span>
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="fas fa-sliders-h"></i></span>
+              </ul>
+            </div>
+            <div class="bottom">
+              <a href="">Figi</a>
+              <div class="price">
+                <span>Rs.20</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/pr8.avif" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+
+              <ul class="side-icons">
+                <span><i class="fas fa-search"></i></span>
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="fas fa-sliders-h"></i></span>
+              </ul>
+            </div>
+            <div class="bottom">
+              <a href="">Smart Water</a>
+              <div class="price">
+                <span>Rs.50</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/pr10.jpg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+
+              <ul class="side-icons">
+                <span><i class="fas fa-search"></i></span>
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="fas fa-sliders-h"></i></span>
+              </ul>
+            </div>
+            <div class="bottom">
+              <a href="">Ozarka</a>
+              <div class="price">
+                <span>Rs15</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/pr14.jpg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+
+              <ul class="side-icons">
+                <span><i class="fas fa-search"></i></span>
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="fas fa-sliders-h"></i></span>
+              </ul>
+            </div>
+            <div class="bottom">
+              <a href="">Kinley</a>
+              <div class="price">
+                <span>Rs.20</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/pr15.jpeg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+
+              <ul class="side-icons">
+                <span><i class="fas fa-search"></i></span>
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="fas fa-sliders-h"></i></span>
+              </ul>
+            </div>
+            <div class="bottom">
+              <a href="">Wawkea</a>
+              <div class="price">
+                <span>Rs.20</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/pr16.jpg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+
+              <ul class="side-icons">
+                <span><i class="fas fa-search"></i></span>
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="fas fa-sliders-h"></i></span>
+              </ul>
+            </div>
+            <div class="bottom">
+              <a href="">Hildon</a>
+              <div class="price">
+                <span>Rs.20</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img-container">
+              <img src="./images/pr6.jpg" alt="" />
+              <div class="addCart">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+
+              <ul class="side-icons">
+                <span><i class="fas fa-search"></i></span>
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="fas fa-sliders-h"></i></span>
+              </ul>
+            </div>
+            <div class="bottom">
+              <a href="">Perrier</a>
+              <div class="price">
+                <span>Rs.30</span>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+
+        <!-- PAGINATION -->
+        <ul class="pagination">
+          <span>1</span>
+          <span class="icon">››</span>
+          <span class="last">Last »</span>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>BRANDS</h3>
+          <a href="#"></a>
+          <a href="#">Bisleri</a>
+          <a href="#">Evian</a>
+          <a href="#">Dasani</a>
+          <a href="#">Nestal</a>
+          <a href="#">Perrier</a>
+        </div>
+        <div class="footer-center">
+          <h3>INFORMATION</h3>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+          
+        </div>
+        <div class="footer-center">
+          <h3>MY ACCOUNT</h3>
+          <a href="#">My Account</a>
+          <a href="#">Order History</a>
+          <a href="#">Wish List</a>
+          <a href="#">Returns</a>
+        </div>
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            104/A Old Market , Mettur Dam, 636401 Salem, TN
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            voneshope@gmail.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            91-9524755510
+          </div>
+          <div class="payment-methods">
+            <img src="./images/payment.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Custom Scripts -->
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
